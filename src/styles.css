@@ -1,0 +1,61 @@
+html {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body.login-page {
+    background-image: url("/heroes/login.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body.resto {
+    background-image: url("/heroes/login.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#container {
+    background-color: transparent;
+}
+
+.container {
+    height: 100%;
+}
+
+.container {
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.login {
+  font-family: "Bangers", cursive;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  letter-spacing: 0.05em;
+}
+
+.button {
+    font-family: 'Permanent Marker';
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+}
